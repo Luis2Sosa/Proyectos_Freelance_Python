@@ -1,0 +1,40 @@
+# 🧾 Ticket Diario – Proyecto 002
+# Cliente: MegaTech Solutions 🖥️
+# Fecha: Viernes por la mañana (último repaso)
+# ============================================================
+
+# 📌 Descripción
+# La empresa MegaTech Solutions solicita un sistema en consola
+# que les permita registrar los productos vendidos durante el día.
+#
+# Cada producto debe incluir:
+#   - nombre
+#   - cantidad
+#   - precio unitario
+#
+# Al finalizar, el sistema debe mostrar:
+#   - subtotales por producto
+#   - total de productos registrados
+#   - total recaudado del día
+
+# 📌 Requisitos
+# 1. El usuario introduce productos mediante input().
+# 2. El registro termina cuando el usuario escribe: "fin".
+# 3. Cada producto debe ser un diccionario con:
+#       "nombre", "cantidad", "precio"
+# 4. Todos los productos deben almacenarse en la lista: inventario
+# 5. El programa debe calcular:
+#       - subtotal por producto (cantidad * precio)
+#       - total acumulado
+#       - total de productos registrados
+# 6. Manejar errores si cantidad o precio no son números.
+# 7. El reporte final debe ser ordenado y profesional.
+
+# 📌 Entregables
+# - Archivo Python: inventario_megatech.py
+# - Código limpio y bien presentado.
+
+# 📌 Notas del cliente
+# - Este sistema se usará al cierre de caja cada día.
+# - Necesitan subtotales claros y un total general.
+# - No se requiere guardar datos en archivos.
