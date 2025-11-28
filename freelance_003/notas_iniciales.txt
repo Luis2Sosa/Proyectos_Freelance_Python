@@ -1,0 +1,104 @@
+# ============================================================
+# 🧾 PROYECTO FREELANCE 003 – Sistema de Registro de Clientes
+# Cliente: Global Services RD 📇
+# ENTREGABLES DE LA SEMANA
+# ============================================================
+
+# 📌 OBJETIVO DEL PROYECTO
+# Crear un sistema en consola que permita:
+#   - Registrar clientes con nombre, teléfono y correo.
+#   - Guardar todos los clientes en una lista de diccionarios.
+#   - Buscar clientes por nombre.
+#   - Mostrar la lista completa de clientes.
+#   - Trabajar con un menú interactivo.
+#   - Manejar errores y validaciones básicas.
+
+# ============================================================
+# 📌 ESTRUCTURA GENERAL DEL PROGRAMA
+# El sistema debe ejecutarse en un bucle mientras el usuario 
+# no elija la opción "4. Salir".
+# ============================================================
+
+# 🔹 MENÚ PRINCIPAL (obligatorio)
+# Mostrar este menú:
+#
+#   1. Registrar cliente
+#   2. Buscar cliente
+#   3. Mostrar todos los clientes
+#   4. Salir del sistema
+#
+# El usuario debe elegir una opción escribiendo un número.
+
+# ============================================================
+# 📌 OPCIÓN 1 — REGISTRAR CLIENTE
+# Al elegir esta opción, se debe:
+#
+#   - Pedir nombre del cliente (string)
+#   - Pedir teléfono (string o número)
+#   - Pedir correo (string)
+#
+# Validaciones:
+#   - Ningún campo puede estar vacío.
+#
+# Luego crear un diccionario así:
+#
+# {
+#     "nombre": "...",
+#     "telefono": "...",
+#     "correo": "..."
+# }
+#
+# Ese diccionario se agrega a la lista llamada "clientes".
+
+# ============================================================
+# 📌 OPCIÓN 2 — BUSCAR CLIENTE
+# Al elegir esta opción:
+#
+#   - Pedir un nombre a buscar.
+#   - Recorrer la lista de diccionarios.
+#   - Si encuentra coincidencia:
+#       Mostrar nombre, teléfono y correo.
+#   - Si NO lo encuentra:
+#       Mostrar mensaje "Cliente no encontrado".
+
+# ============================================================
+# 📌 OPCIÓN 3 — MOSTRAR TODOS LOS CLIENTES
+# Mostrar todos los clientes registrados en formato limpio.
+#
+# Cada cliente debe mostrarse así:
+#
+#   Nombre: Juan Perez | Tel: 829-000-0000 | Correo: correo@x.com
+#
+# Si no hay clientes:
+#   Mostrar: "No hay clientes registrados."
+
+# ============================================================
+# 📌 OPCIÓN 4 — SALIR DEL SISTEMA
+# Antes de cerrar, mostrar:
+#
+# === RESUMEN FINAL ===
+# Clientes registrados: X
+# Gracias por utilizar el sistema.
+#
+# Luego terminar el programa.
+
+# ============================================================
+# 📌 VALIDACIONES OBLIGATORIAS
+# - Si el usuario escribe una opción del menú inválida → mensaje de error.
+# - Si nombre/telefono/correo están vacíos → mensaje de error.
+# - El programa NO debe fallar si el usuario escribe letras donde no debe.
+#
+# Este proyecto te enseña:
+#   - Bucles
+#   - Menús
+#   - Diccionarios
+#   - Listas
+#   - Búsquedas
+#   - Validaciones
+#   - Flujo profesional de consola
+
+# ============================================================
+# 📌 FIN DEL TICKET
+# Este archivo son tus instrucciones diarias para practicar el
+# Proyecto Freelance 003 durante toda la semana.
+# ============================================================
