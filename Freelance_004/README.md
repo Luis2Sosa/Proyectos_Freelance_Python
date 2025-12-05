@@ -26,8 +26,10 @@ Sistema de consola desarrollado en Python que permite gestionar tareas de forma 
 
 ## ▶️ Cómo ejecutar el programa
 
-```bash
 python registro_tareas.py
+
+```bash
+
 
 
 
