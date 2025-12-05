@@ -1,0 +1,34 @@
+PROYECTO 004 - REGISTRO DE TAREAS (TODO LIST)
+
+Cliente: Productividad Personal
+Desarrollador: Luis Sosa
+Fecha: Viernes
+
+Objetivo:
+Crear un sistema en consola en Python para registrar, buscar, mostrar,
+completar, editar y eliminar tareas.
+
+Requisitos del sistema:
+- Registrar una tarea (título y descripción)
+- Mostrar todas las tareas
+- Buscar tarea por título
+- Completar una tarea
+- Editar una tarea
+- Eliminar una tarea
+- Salir del sistema
+
+Cada tarea debe tener:
+- titulo
+- descripcion
+- estado (Pendiente / Completada)
+
+Condiciones:
+- El sistema debe usar un menú interactivo
+- Validar que los campos no estén vacíos
+- Usar funciones
+- Usar lista y diccionarios
+- Mostrar mensajes claros al usuario
+
+Observaciones:
+Este proyecto se realiza completamente desde la lógica,
+sin copiar código, como práctica real de trabajo freelance.
