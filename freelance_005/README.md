@@ -18,7 +18,6 @@ Fue desarrollado como práctica de lógica, estructuras de datos y control de fl
 ## 🛠️ Tecnologías
 - Python 3
 - Listas y diccionarios
-- Funciones
 - Validaciones de datos
 - Manejo de errores (`try / except`)
 
