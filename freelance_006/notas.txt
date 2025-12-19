@@ -1,0 +1,9 @@
+Proyecto Freelance 006
+Registro de pedidos en consola con persistencia en archivo .txt
+
+- Menú interactivo en consola
+- Registro de pedidos (cliente, producto, cantidad, precio, total)
+- Guardado de pedidos en archivo pedidos.txt
+- Lectura y visualización de pedidos guardados
+- Manejo básico de errores con try/except
+- Flujo continuo hasta salir del sistema
