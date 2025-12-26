@@ -1,0 +1,34 @@
+PROYECTO FREELANCE 007
+Registro de pedidos con confirmación
+
+Objetivo:
+Crear un sistema en consola para registrar pedidos y consultarlos desde un archivo de texto.
+
+Funcionalidades:
+- Mostrar un menú con opciones:
+  1. Registrar pedido
+  2. Ver pedidos
+  3. Salir
+
+Registrar pedido:
+- Pedir nombre del cliente
+- Pedir nombre del producto
+- Pedir cantidad (entero)
+- Pedir precio (decimal)
+- Calcular total
+- Mostrar resumen del pedido
+- Pedir confirmación (s/n)
+- Guardar solo si el usuario confirma
+
+Archivo:
+- Usar archivo "pedidos.txt"
+- Guardar cada pedido en una sola línea
+- No sobrescribir pedidos anteriores
+
+Validaciones:
+- No permitir campos vacíos
+- Manejar errores de números con try/except
+- Manejar archivo inexistente al leer
+
+Nivel:
+Junior intermedio (práctica de lógica, archivos y flujo de usuario)
