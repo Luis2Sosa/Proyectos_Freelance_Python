@@ -1,0 +1,25 @@
+PROYECTO FREELANCE 008
+Registro de pedidos con ID y búsqueda
+
+OBJETIVO
+Crear un sistema en consola que permita registrar pedidos con un ID único,
+guardarlos en un archivo de texto y poder buscarlos por su ID.
+
+FUNCIONES DEL SISTEMA
+- Registrar pedidos con ID automático
+- Mostrar todos los pedidos guardados
+- Buscar pedidos por ID
+- Guardar información en archivo pedidos.txt
+
+CARACTERÍSTICAS
+- Uso de archivo de texto como base de datos
+- Generación automática de ID incremental
+- Manejo de errores con try/except
+- Menú interactivo en consola
+- Validación de datos de entrada
+
+NIVEL
+Junior Intermedio
+
+ESTADO
+Proyecto funcional, en proceso de perfeccionamiento y comprensión de lógica interna.
