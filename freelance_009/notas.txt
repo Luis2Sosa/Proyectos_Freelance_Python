@@ -1,0 +1,41 @@
+PROYECTO FREELANCE 009
+Registro de clientes con edición y eliminación (CRUD)
+
+OBJETIVO
+Construir un sistema en consola que permita manejar un registro de clientes
+usando únicamente archivos de texto como almacenamiento.
+
+FUNCIONALIDADES A IMPLEMENTAR
+1. Registrar clientes
+   - Generar ID automático incremental
+   - Pedir nombre, teléfono y correo
+   - Guardar en archivo clientes.txt
+
+2. Ver clientes
+   - Leer el archivo clientes.txt
+   - Mostrar todos los clientes registrados
+   - Manejar caso de archivo vacío o inexistente
+
+3. Editar cliente por ID
+   - Pedir ID del cliente
+   - Leer todas las líneas del archivo
+   - Reconstruir el archivo reemplazando solo la línea del cliente editado
+   - Guardar el archivo actualizado
+
+4. Eliminar cliente por ID
+   - Pedir ID del cliente
+   - Leer todas las líneas del archivo
+   - Reconstruir el archivo excluyendo la línea del cliente eliminado
+   - Guardar el archivo actualizado
+
+REGLAS IMPORTANTES
+- NO usar bases de datos
+- NO usar listas ni diccionarios para almacenar datos finales (solo como paso intermedio)
+- Trabajar siempre leyendo y reescribiendo el archivo completo
+- Priorizar la lógica antes que la perfección del código
+
+NIVEL
+Junior intermedio – manejo real de datos persistentes
+
+ESTADO
+Proyecto en proceso de consolidación del patrón CRUD con archivos.
